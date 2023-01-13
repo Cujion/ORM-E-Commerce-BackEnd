@@ -10,11 +10,20 @@
 
 
 ## Description
-* This application is a Object-Relational Mapping (ORM) E-Commerce Back End. 
+* This application is a Object-Relational Mapping (ORM) E-Commerce Back End. In this application you learn how to setup a mysql database using sequelize. You define your different models for each table inside your database and use an index.js file to define your relationships between each table. Once you have that all setup then you get into setting up your routes for each data table. This is where you define which actions you would like to perform. For example a findAll function to get all the specified data with in a specific table inside your database. You can also find by a specific id, create a new item inside a table, update an item inside a table or delete an item inside a table.
 
 ## Visuals
+![Get All Products](./assets/images/GetAllProducts.png)
 
-## Tests
+![Get All Products by ID](./assets/images/GetProductByID.png)
+
+![Get All Categories](./assets/images/GetAllCategories.png)
+
+![View All Categories by ID](./assets/images/GetAllCategoriesByID.png)
+
+![Get All Tags](./assets/images/GetAllTags.png)
+
+![Get All Tags by ID](./assets/images/GetAllTagsByID.png)
 
 ## License
 * MIT License
