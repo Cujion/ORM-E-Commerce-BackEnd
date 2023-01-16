@@ -21,7 +21,7 @@ Product.init(
       allowNull: false,
     },
     price: {
-      type: DataTypes.FLOAT, //WOULD THIS BE DECIMAL OR FLOAT
+      type: DataTypes.FLOAT,
       allowNull: false,
       validate: {
         isDecimal: true,
